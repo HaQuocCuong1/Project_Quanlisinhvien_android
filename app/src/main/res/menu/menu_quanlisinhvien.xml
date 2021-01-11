@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Xóa sinh viên"
+        android:id="@+id/menu_xoasv"/>
+    <item
+        android:title="Xem thông tin"
+        android:id="@+id/menu_xttsv"/>
+</menu>

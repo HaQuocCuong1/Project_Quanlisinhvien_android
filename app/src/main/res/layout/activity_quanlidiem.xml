@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1B"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Quanlidiem">
+    <Button
+        android:id="@+id/btn_nhapdiem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Nhập điểm"/>
+    <Button
+        android:id="@+id/btn_xemdiem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Xem điểm"/>
+    <Button
+        android:id="@+id/btn_thoat"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="thoát"/>
+</LinearLayout>

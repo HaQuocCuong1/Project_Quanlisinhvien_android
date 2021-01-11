@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quan ly sinh vien</string>
+    <string-array name="arrdiem">
+        <item>Nhap diem</item>
+        <item>DiemGK</item>
+        <item>ĐiemThi</item>
+    </string-array>
+    <string-array name="arrmonhoc">
+        <item>Toan cao cap 1</item>
+        <item>Lap trinh thiet bi di dong</item>
+        <item>Phan tich thiet ke phan mem</item>
+        <item>Lap trinh java</item>
+    </string-array>
+</resources>

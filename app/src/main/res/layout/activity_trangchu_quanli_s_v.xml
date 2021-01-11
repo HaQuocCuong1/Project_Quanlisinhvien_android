@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#1C1C1B"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Trangchu_quanliSV">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý sinh viên"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/btn_quanlysv"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_quanlylh"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ LỚP HỌC"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_quanlydiem"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ ĐIỂM"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_thongke"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Thông kê"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_dangxuat"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG XUẤT"
+        android:textSize="20sp"/>
+
+</LinearLayout>
